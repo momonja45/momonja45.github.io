@@ -1,0 +1,105 @@
+const projects = [
+  {
+    id: 1,
+    title: "Learning Management System",
+    category: "Professional",
+    status: "Production / Ongoing",
+    description:
+      "Learning-management capabilities developed and maintained as part of the Quick-Campus enterprise education ecosystem.",
+    technologies: [
+      "PHP",
+      "JavaScript",
+      "jQuery",
+      "MySQL",
+      "HTML",
+      "CSS",
+    ],
+    highlights: [
+      "Developed and enhanced learning-management workflows and integrated modules.",
+      "Implemented client-requested features, reports, filters, and workflow improvements.",
+      "Handled database design, backend development, frontend development, testing, and technical support.",
+      "Integrated LMS capabilities with the broader ERP, CRM, and SIS ecosystem.",
+    ],
+    image: null,
+    imageAlt: "",
+    github: "",
+    demo: "",
+  },
+  {
+    id: 2,
+    title: "AI Chat & Lesson Generation",
+    category: "Professional",
+    status: "Research & Development",
+    description:
+      "Locally hosted AI features for in-platform chat support and AI-assisted lesson-content generation.",
+    technologies: [
+      "Ollama",
+      "Large Language Models",
+      "PHP",
+      "JavaScript",
+      "MySQL",
+    ],
+    highlights: [
+      "Researched and prototyped locally hosted large-language-model capabilities.",
+      "Integrated Ollama-powered features into an existing enterprise education platform.",
+      "Developed AI chat support and assisted lesson-content generation workflows.",
+      "Worked across prototyping, application integration, testing, and continuous enhancement.",
+    ],
+    image: null,
+    imageAlt: "",
+    github: "",
+    demo: "",
+  },
+  {
+    id: 3,
+    title: "Education Data Analytics",
+    category: "Professional",
+    status: "Production / Ongoing",
+    description:
+      "Descriptive analytics, dashboards, reports, and visualizations built from integrated operational and educational data.",
+    technologies: [
+      "PHP",
+      "JavaScript",
+      "MySQL",
+      "Data Analysis",
+      "Data Visualization",
+    ],
+    highlights: [
+      "Developed and supported a data-analytics module for enterprise education systems.",
+      "Created dashboards, reports, filters, and visualizations based on client requirements.",
+      "Worked with data from integrated ERP, CRM, SIS, and LMS modules.",
+      "Handled troubleshooting, enhancements, and ongoing technical support.",
+    ],
+    image: null,
+    imageAlt: "",
+    github: "",
+    demo: "",
+  },
+  {
+    id: 4,
+    title: "React Portfolio",
+    category: "Learning",
+    status: "In Progress",
+    description:
+      "A responsive personal portfolio built while learning modern React and component-based application development.",
+    technologies: [
+      "React",
+      "Vite",
+      "JavaScript",
+      "CSS",
+      "GitHub API",
+    ],
+    highlights: [
+      "Built reusable components and data-driven sections.",
+      "Implemented project search, filtering, themes, modals, and responsive navigation.",
+      "Practiced state, Effects, refs, Context, custom Hooks, portals, and API requests.",
+      "Applied accessibility features such as focus restoration and keyboard controls.",
+    ],
+    image: null,
+    imageAlt: "",
+    github: "",
+    demo: "",
+  },
+];
+
+export default projects;
